@@ -48,12 +48,6 @@ smart_budget_agent/
 
 ## 安裝方式
 
-進入專案目錄：
-
-```powershell
-cd D:\NTPU\Y4S1\AI_agent\phase1\smart_budget_agent
-```
-
 安裝相依套件：
 
 ```powershell
