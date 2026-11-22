@@ -2,7 +2,7 @@
 
 智慧記帳與預算管理 Agent 是一個以純 Python 開發的自然語言記帳工具。使用者可以透過文字描述消費內容，Agent 使用 OpenAI-compatible LLM 解析消費資訊並呼叫 Tool，最後將資料寫入 SQLite。
 
-本專案目前以指定作業 2 的最小可執行範圍為主：完成 Agent、Tool Calling、自然語言參數解析與 SQLite 記帳功能。預算設定、預算預警、週月統計與長期對話記憶等功能保留至後續階段。
+本專案目前以最小可執行範圍為主：完成 Agent、Tool Calling、自然語言參數解析與 SQLite 記帳功能。預算設定、預算預警、週月統計與長期對話記憶等功能保留至後續階段。
 
 ## 主要功能
 
@@ -13,7 +13,7 @@
 - 提供手動 SQLite 檢查工具
 - 支援透過 `.env` 設定 OpenAI-compatible API
 
-## 專案結構
+## 結構
 
 ```text
 smart_budget_agent/
